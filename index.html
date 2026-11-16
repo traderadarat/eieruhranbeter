@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Die Eieruhranbeter · Gemeinschaft der Heiligen Minute</title>
+<meta name="description" content="Wir glauben an die Minute. An die vierte, die sechste und die zehnte. Offizielle Homepage der Eieruhranbeter (Satire).">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Die Eieruhranbeter 🥚⏳">
+<meta property="og:description" content="Gemeinschaft der Heiligen Minute. Gegründet am 16.11.2026 um 20:16 Uhr. Jetzt beitreten – das Ritual dauert nur 6 Minuten.">
+<meta property="og:url" content="https://traderadarat.github.io/eieruhranbeter/">
+<meta property="og:image" content="https://traderadarat.github.io/eieruhranbeter/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="theme-color" content="#1b1209">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A5%9A%3C/text%3E%3C/svg%3E">
+<style>
+:root{
+  --night:#1b1209; --night2:#2a1c0d;
+  --cream:#fff8ec; --shell:#f4e6cc; --shell2:#ead6b0;
+  --brown:#8a5a2b; --ink:#2b1d0e; --muted:#6b5640;
+  --yolk:#ffb703; --yolk2:#f59e0b; --yolk3:#d97200;
+  --red:#b3261e;
+  --serif:"Palatino Linotype","Book Antiqua",Palatino,Georgia,"Times New Roman",serif;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --radius:18px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:64px}
+body{margin:0;font-family:var(--sans);color:var(--ink);background:var(--cream);line-height:1.6;font-size:17px}
+a{color:var(--yolk3)}
+h1,h2,h3{font-family:var(--serif);line-height:1.15;margin:0 0 .5em}
+h2{font-size:clamp(1.9rem,4vw,2.8rem)}
+h3{font-size:1.3rem}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+section{padding:88px 0}
+.alt{background:var(--shell)}
+.dark{background:var(--night);color:var(--cream)}
+.dark .lead{color:#d9c6a3}
+.kicker{display:block;font-family:var(--serif);font-variant:small-caps;letter-spacing:.18em;color:var(--yolk3);font-size:1rem;margin-bottom:.5em}
+.dark .kicker{color:var(--yolk)}
+.lead{font-size:1.15rem;color:var(--muted);max-width:740px;margin:0 0 2em}
+.center{text-align:center}
+.center .lead{margin-left:auto;margin-right:auto}
+
+/* Navigation */
+nav{position:sticky;top:0;z-index:50;background:rgba(27,18,9,.94);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid rgba(255,183,3,.25)}
+nav .wrap{display:flex;align-items:center;gap:16px;height:56px}
+nav .brand{font-family:var(--serif);color:var(--yolk);font-weight:700;text-decoration:none;white-space:nowrap;font-size:1.05rem}
+nav ul{display:flex;gap:2px;list-style:none;margin:0;padding:0;overflow-x:auto;scrollbar-width:none}
+nav ul::-webkit-scrollbar{display:none}
+nav a.l{display:block;color:#f4e6cc;text-decoration:none;font-size:.88rem;padding:6px 10px;border-radius:999px;white-space:nowrap}
+nav a.l:hover,nav a.l:focus-visible{background:rgba(255,183,3,.16);color:var(--yolk);outline:none}
+
+/* Hero */
+.hero{position:relative;overflow:hidden;background:radial-gradient(ellipse at 50% 38%,#4a2f12 0%,var(--night) 62%);color:var(--cream);padding:56px 0 80px;text-align:center}
+.rays{position:absolute;left:50%;top:40%;width:1600px;height:1600px;margin:-800px 0 0 -800px;border-radius:50%;
+  background:repeating-conic-gradient(from 0deg,rgba(255,183,3,.11) 0deg 6deg,transparent 6deg 15deg);
+  -webkit-mask-image:radial-gradient(circle,#000 0%,transparent 60%);mask-image:radial-gradient(circle,#000 0%,transparent 60%);
+  animation:spin 120s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.halo{position:absolute;left:50%;top:40%;width:440px;height:440px;margin:-220px 0 0 -220px;border-radius:50%;background:radial-gradient(circle,rgba(255,183,3,.55),rgba(255,183,3,0) 70%);filter:blur(8px);animation:pulse 4s ease-in-out infinite}
+@keyframes pulse{50%{transform:scale(1.12);opacity:.75}}
+.hero .inner{position:relative}
+.hero .kicker{color:#e9c98f}
+.glass{display:block;margin:6px auto 0;width:200px;height:300px;cursor:pointer;filter:drop-shadow(0 0 28px rgba(255,183,3,.35));-webkit-tap-highlight-color:transparent}
+.glass .flip{transform-box:view-box;transform-origin:100px 150px;animation:flip 12s ease-in-out infinite}
+@keyframes flip{0%,90%{transform:rotate(0)}100%{transform:rotate(180deg)}}
+.glass .sandTop{transform-box:fill-box;transform-origin:50% 100%;animation:drain 12s linear infinite}
+@keyframes drain{0%{transform:scaleY(1)}86%,100%{transform:scaleY(0)}}
+.glass .sandBot{transform-box:fill-box;transform-origin:50% 100%;animation:fillup 12s linear infinite}
+@keyframes fillup{0%{transform:scaleY(0)}86%,100%{transform:scaleY(1)}}
+.glass .stream{animation:stream 12s linear infinite}
+@keyframes stream{0%,85%{opacity:1}86%,100%{opacity:0}}
+.hero h1{font-size:clamp(2.7rem,8.5vw,5.8rem);color:var(--yolk);text-shadow:0 0 42px rgba(255,183,3,.45);margin:.15em 0 .12em;letter-spacing:.01em}
+.motto{font-family:var(--serif);font-style:italic;font-size:clamp(1.15rem,2.8vw,1.55rem);color:#f4e6cc;margin:0}
+.motto small{display:block;font-size:.62em;color:#cdb48a;font-style:normal;margin-top:4px}
+.hero .tag{max-width:660px;margin:1.1em auto 1.7em;font-size:1.15rem;color:#e8d6b5}
+.hint{font-size:.8rem;color:#a88e66;margin-top:18px}
+.btns{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+.btn{display:inline-flex;align-items:center;gap:.5em;font:600 1rem var(--sans);padding:.85em 1.4em;border-radius:999px;border:2px solid var(--yolk);background:var(--yolk);color:var(--night);cursor:pointer;text-decoration:none;transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(255,183,3,.35)}
+.btn.ghost{background:transparent;color:var(--yolk2)}
+.dark .btn.ghost,.hero .btn.ghost{color:var(--yolk)}
+.btn.small{padding:.55em 1.05em;font-size:.92rem}
+.btn:disabled{opacity:.4;cursor:not-allowed;transform:none;box-shadow:none}
+
+/* Statistik */
+.stats{background:var(--night2);color:var(--cream);padding:26px 0;border-top:1px solid rgba(255,183,3,.2)}
+.stats .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;text-align:center}
+.stats b{display:block;font-family:var(--serif);font-size:clamp(1.6rem,3.6vw,2.3rem);color:var(--yolk);font-variant-numeric:tabular-nums;line-height:1.1}
+.stats span{font-size:.85rem;color:#d9c6a3}
+
+/* Laufband */
+.marquee{background:var(--yolk);color:var(--night);overflow:hidden;white-space:nowrap;font-family:var(--serif);font-weight:700;letter-spacing:.22em;padding:12px 0;font-size:1.05rem}
+.marquee span{display:inline-block;animation:mq 40s linear infinite}
+@keyframes mq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* Ritual */
+.timer{display:grid;grid-template-columns:minmax(260px,380px) 1fr;gap:44px;align-items:center}
+.dial{position:relative;width:100%;max-width:360px;aspect-ratio:1/1;margin:0 auto}
+.dial svg{width:100%;height:100%;display:block}
+.ring-bg{fill:#fffdf7;stroke:var(--shell2);stroke-width:14}
+.ring-fg{fill:none;stroke:var(--yolk2);stroke-width:14;stroke-linecap:round;transition:stroke-dashoffset .25s linear}
+.ticks line{stroke:var(--brown);stroke-width:2;opacity:.35}
+.ring-center{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.egg-mini{font-size:2.2rem;line-height:1}
+.running .egg-mini{animation:wobble .9s ease-in-out infinite}
+@keyframes wobble{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(8deg)}}
+.t-time{font-family:var(--serif);font-size:clamp(3rem,10vw,4.4rem);font-weight:700;font-variant-numeric:tabular-nums;line-height:1.05}
+.t-state{font-size:.85rem;color:var(--muted);max-width:68%;margin-top:6px;line-height:1.35}
+.done .dial{animation:glow 1.2s ease-in-out 4}
+@keyframes glow{50%{filter:drop-shadow(0 0 30px rgba(255,183,3,.9))}}
+.presets{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-bottom:16px}
+.preset{text-align:left;border:2px solid var(--shell2);background:#fff;border-radius:14px;padding:12px 14px;cursor:pointer;font:inherit;color:inherit;transition:border-color .15s,background .15s}
+.preset b{display:block;font-family:var(--serif);font-size:1.15rem}
+.preset small{color:var(--muted);font-size:.85rem}
+.preset[aria-pressed="true"]{border-color:var(--yolk2);background:#fff4d6;box-shadow:0 0 0 3px rgba(245,158,11,.2)}
+.preset:disabled{cursor:not-allowed;opacity:.6}
+.controls{display:flex;flex-wrap:wrap;gap:10px}
+.liturgy{margin-top:18px;background:var(--night);color:#f4e6cc;border-radius:16px;padding:18px 20px;font-family:var(--serif);font-size:1.15rem;min-height:96px}
+.liturgy .who{display:block;font:700 .72rem var(--sans);letter-spacing:.2em;color:var(--yolk);text-transform:uppercase;margin-bottom:6px}
+.in{animation:fadein .5s ease}
+@keyframes fadein{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.note{font-size:.85rem;color:var(--muted);margin-top:14px}
+
+/* Offenbarung */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:34px}
+.scroll{background:#fffaf0;border:1px solid var(--shell2);border-radius:var(--radius);padding:30px 30px 24px;box-shadow:0 14px 40px rgba(43,29,14,.08)}
+.verses p{margin:0 0 .8em;font-family:var(--serif);font-size:1.08rem}
+.verses sup{color:var(--yolk3);font-weight:700;font-family:var(--sans);margin-right:6px}
+.legend p{margin:0 0 .9em}
+.legend .chat{background:var(--shell);border-left:4px solid var(--yolk2);border-radius:10px;padding:10px 14px;font-family:var(--serif);font-style:italic;margin:0 0 .9em}
+.legend .time{font-weight:700;color:var(--brown);font-style:normal;font-family:var(--sans);font-size:.85rem;margin-right:6px}
+
+/* Gebote */
+.tablets{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.tablet{background:linear-gradient(160deg,#ece5d7,#cfc4ae);border-radius:150px 150px 18px 18px;padding:72px 30px 28px;box-shadow:inset 0 0 0 6px rgba(255,255,255,.35),0 18px 40px rgba(43,29,14,.18)}
+.tablet ol{margin:0;padding:0;list-style:none;counter-reset:g}
+.tablet li{counter-increment:g;padding:12px 0 12px 56px;position:relative;border-bottom:1px dashed rgba(43,29,14,.2)}
+.tablet li:last-child{border-bottom:0}
+.tablet li::before{content:counter(g,upper-roman);position:absolute;left:0;top:10px;width:44px;text-align:center;font-family:var(--serif);font-weight:700;color:var(--brown);font-size:1.3rem}
+.tablet li b{display:block;font-family:var(--serif);font-size:1.1rem}
+.tablet li span{color:var(--muted);font-size:.95rem}
+
+/* Ränge */
+.ranks{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:18px}
+.rank{background:#fff;border-radius:var(--radius);padding:26px 18px 20px;text-align:center;box-shadow:0 10px 30px rgba(43,29,14,.08);border:1px solid var(--shell2)}
+.rank h3{margin:0}
+.rank p{font-size:.95rem;color:var(--muted);margin:0}
+.rank .min{display:inline-block;background:var(--night);color:var(--yolk);border-radius:999px;padding:2px 12px;font-size:.82rem;font-weight:700;margin:8px 0 10px}
+.egg{width:84px;height:108px;background:#fffdf7;border-radius:50% 50% 50% 50%/60% 60% 40% 40%;position:relative;margin:4px auto 16px;box-shadow:inset -6px -8px 0 rgba(0,0,0,.06),0 6px 14px rgba(43,29,14,.18)}
+.egg i{position:absolute;left:50%;top:58%;width:48px;height:48px;transform:translate(-50%,-50%);border-radius:50%}
+.egg.whole{background:radial-gradient(circle at 35% 30%,#f3cd9c,#c98a4b 72%)}
+.egg.weich i{background:radial-gradient(circle at 38% 34%,#fff1b8 0 10%,#ffbf1f 30%,#f59400 80%)}
+.egg.weich i::after{content:"";position:absolute;left:38%;top:72%;width:14px;height:30px;background:#f8a10a;border-radius:0 0 50% 50%}
+.egg.wachs i{background:radial-gradient(circle at 45% 40%,#ffb340,#e8780c 78%)}
+.egg.hart i{background:radial-gradient(circle,#ffe58a,#f2c94c);width:52px;height:52px}
+.egg.gold{background:radial-gradient(circle at 35% 30%,#fff6c2,#f5b400 60%,#c98a00);box-shadow:0 0 34px rgba(255,183,3,.75)}
+.egg.gold::before{content:"👑";position:absolute;left:50%;top:-30px;transform:translateX(-50%);font-size:30px}
+.specials{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+.chip{background:#fff;border:1px dashed var(--brown);border-radius:12px;padding:10px 14px;font-size:.95rem;flex:1 1 260px}
+
+/* Schisma */
+.vote{display:block;width:100%;text-align:left;margin-bottom:10px;padding:14px 16px;border-radius:14px;border:2px solid rgba(255,183,3,.45);background:rgba(255,255,255,.04);color:var(--cream);font:inherit;cursor:pointer;transition:background .15s}
+.vote:hover{background:rgba(255,183,3,.1)}
+.vote b{font-family:var(--serif);font-size:1.15rem}
+.vote[aria-pressed="true"]{background:var(--yolk);color:var(--night);border-color:var(--yolk)}
+.vote-result{min-height:84px;margin-top:8px;color:#f4e6cc;font-size:1.02rem}
+.small{font-size:.82rem;color:#a88e66}
+
+/* Irrlehren */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.heresy{position:relative;background:#fff;border-radius:var(--radius);padding:26px 22px 20px;border:1px solid var(--shell2);overflow:hidden}
+.heresy .stamp{position:absolute;top:16px;right:-38px;transform:rotate(35deg);background:var(--red);color:#fff;font-size:.66rem;font-weight:800;letter-spacing:.16em;padding:4px 44px}
+.heresy h3{padding-right:46px}
+.heresy p{margin:0;color:var(--muted)}
+.heresy .ico{font-size:2rem;display:block;margin-bottom:6px}
+
+/* Fakten */
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.fact{background:#fff;border-radius:var(--radius);padding:22px;border-top:6px solid var(--yolk2);box-shadow:0 8px 24px rgba(43,29,14,.06)}
+.fact .big{font-family:var(--serif);font-size:2.1rem;font-weight:700;color:var(--yolk3);line-height:1.1;margin-bottom:8px}
+.fact p{margin:0;font-size:.97rem}
+.fact em{color:var(--muted)}
+.src{font-size:.85rem;color:var(--muted);margin-top:24px}
+
+/* Ablass */
+.ticket{max-width:660px;margin:0 auto;background:#fffaf0;border:2px dashed var(--brown);border-radius:18px;padding:32px 34px 28px;text-align:center;position:relative;box-shadow:0 14px 40px rgba(43,29,14,.12)}
+.ticket::before,.ticket::after{content:"";position:absolute;top:50%;width:30px;height:30px;background:var(--shell);border-radius:50%;transform:translateY(-50%)}
+.ticket::before{left:-17px}.ticket::after{right:-17px}
+.ticket .seal{font-size:2.4rem}
+#ablassText{font-family:var(--serif);font-size:1.35rem;min-height:3.4em;margin:10px 0 6px;display:flex;align-items:center;justify-content:center}
+#ablassMeta{font-size:.82rem;color:var(--muted);min-height:1.3em;margin-bottom:18px}
+
+/* Feste */
+.feasts{display:grid;gap:14px}
+.feast{display:grid;grid-template-columns:220px 1fr;gap:18px;background:#fff;border-radius:16px;padding:18px 22px;border-left:6px solid var(--yolk2)}
+.feast .when{font-family:var(--serif);font-weight:700;color:var(--brown);font-size:1.1rem}
+.feast h3{margin:0 0 .2em;font-size:1.2rem}
+.feast p{margin:0;color:var(--muted)}
+.countdown{display:inline-block;background:var(--night);color:var(--yolk);border-radius:12px;padding:10px 16px;font-weight:600;margin-bottom:22px}
+
+/* Beitritt */
+.join{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+label{display:block;font-weight:600;margin:14px 0 6px}
+input,select{width:100%;padding:12px 14px;border-radius:12px;border:2px solid var(--shell2);font:inherit;background:#fff;color:var(--ink)}
+input:focus,select:focus{outline:none;border-color:var(--yolk2);box-shadow:0 0 0 3px rgba(245,158,11,.2)}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.perks{list-style:none;padding:0;margin:0}
+.perks li{padding:10px 0 10px 38px;position:relative;border-bottom:1px solid var(--shell2)}
+.perks li::before{content:"🥚";position:absolute;left:4px;top:9px}
+.card{background:linear-gradient(135deg,#2e1f0e,#1b1209);color:var(--cream);border-radius:20px;padding:22px 24px;box-shadow:0 20px 50px rgba(0,0,0,.35);border:1px solid rgba(255,183,3,.55);max-width:540px;position:relative;overflow:hidden}
+.card::after{content:"";position:absolute;right:-70px;top:-70px;width:220px;height:220px;border-radius:50%;background:radial-gradient(circle,rgba(255,183,3,.35),transparent 70%);pointer-events:none}
+.card-top{display:flex;justify-content:space-between;gap:10px;font-size:.72rem;letter-spacing:.2em;color:var(--yolk);font-weight:700}
+.card-body{display:flex;gap:18px;margin-top:16px;align-items:center}
+.card-egg{font-size:62px;line-height:1;filter:drop-shadow(0 0 18px rgba(255,183,3,.6))}
+.c-label{font-size:.66rem;letter-spacing:.18em;text-transform:uppercase;color:#c9b38d}
+.c-name{font-family:var(--serif);font-size:1.45rem;color:var(--yolk);margin-bottom:10px;line-height:1.2}
+.c-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px 18px;font-size:.92rem}
+.card-foot{margin-top:16px;padding-top:10px;border-top:1px solid rgba(255,183,3,.25);font-size:.74rem;color:#c9b38d;font-style:italic}
+.card-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.privacy{font-size:.82rem;color:var(--muted);margin-top:12px}
+
+/* FAQ */
+details{background:#fff;border-radius:14px;margin-bottom:10px;border:1px solid var(--shell2)}
+summary{cursor:pointer;padding:16px 52px 16px 20px;font-weight:600;list-style:none;position:relative}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"🥚";position:absolute;right:18px;top:14px}
+details[open] summary::after{content:"🍳"}
+details p{padding:0 20px 16px;margin:0;color:var(--muted)}
+
+/* Footer */
+footer{background:var(--night);color:#d9c6a3;padding:54px 0 40px;font-size:.92rem}
+footer .brand{font-family:var(--serif);color:var(--yolk);font-size:1.3rem;margin-bottom:.4em}
+footer p{max-width:780px}
+footer .btns{justify-content:flex-start;margin:18px 0}
+
+/* Effekte */
+.drop{position:fixed;top:-60px;z-index:150;pointer-events:none;animation:fall linear forwards}
+@keyframes fall{to{transform:translateY(115vh) rotate(540deg)}}
+#toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,180%);background:var(--night);color:var(--cream);border:1px solid var(--yolk);padding:12px 18px;border-radius:14px;z-index:200;max-width:min(92vw,520px);text-align:center;transition:transform .35s;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+#toast.show{transform:translate(-50%,0)}
+.js .reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
+.js .reveal.vis{opacity:1;transform:none}
+
+@media (max-width:780px){
+  body{font-size:16px}
+  section{padding:64px 0}
+  .timer,.two,.join,.tablets{grid-template-columns:1fr}
+  .stats .wrap{grid-template-columns:repeat(2,1fr)}
+  .feast{grid-template-columns:1fr;gap:4px}
+  nav .brand .full{display:none}
+  .tablet{border-radius:110px 110px 18px 18px;padding:60px 20px 22px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  html{scroll-behavior:auto}
+  .js .reveal{opacity:1;transform:none}
+}
+@media print{
+  body *{visibility:hidden}
+  #card,#card *{visibility:visible}
+  #card{position:absolute;left:0;top:0;box-shadow:none;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+</style>
+</head>
+<body>
+<script>document.documentElement.classList.add('js')</script>
+
+<nav aria-label="Hauptnavigation">
+  <div class="wrap">
+    <a class="brand" href="#top">🥚 <span class="full">Eieruhranbeter</span></a>
+    <ul>
+      <li><a class="l" href="#ritual">Ritual</a></li>
+      <li><a class="l" href="#offenbarung">Offenbarung</a></li>
+      <li><a class="l" href="#gebote">Gebote</a></li>
+      <li><a class="l" href="#raenge">Ränge</a></li>
+      <li><a class="l" href="#schisma">Schisma</a></li>
+      <li><a class="l" href="#irrlehren">Irrlehren</a></li>
+      <li><a class="l" href="#fakten">Fakten</a></li>
+      <li><a class="l" href="#ablass">Ablass</a></li>
+      <li><a class="l" href="#feste">Feste</a></li>
+      <li><a class="l" href="#beitritt">Beitritt</a></li>
+      <li><a class="l" href="#faq">FAQ</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="rays" aria-hidden="true"></div>
+  <div class="halo" aria-hidden="true"></div>
+  <div class="inner wrap">
+    <span class="kicker">Offizielle Homepage · gegründet am 16.11.2026 um 20:16 Uhr</span>
+    <svg class="glass" id="heroGlass" viewBox="0 0 200 300" role="img" aria-label="Die Heilige Eieruhr">
+      <defs>
+        <clipPath id="glassClip"><path d="M57,34 C57,95 92,122 97,150 C92,178 57,205 57,266 L143,266 C143,205 108,178 103,150 C108,122 143,95 143,34 Z"/></clipPath>
+        <linearGradient id="wood" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#b47d45"/><stop offset="1" stop-color="#6e4520"/></linearGradient>
+        <linearGradient id="sand" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#ffd166"/><stop offset="1" stop-color="#f59e0b"/></linearGradient>
+        <linearGradient id="shine" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity=".32"/><stop offset=".5" stop-color="#fff" stop-opacity=".04"/><stop offset="1" stop-color="#fff" stop-opacity=".22"/></linearGradient>
+      </defs>
+      <g class="flip">
+        <g clip-path="url(#glassClip)">
+          <rect class="sandTop" x="40" y="74" width="120" height="76" fill="url(#sand)"/>
+          <rect class="stream" x="98.6" y="148" width="2.8" height="118" fill="#ffc94a"/>
+          <path class="sandBot" d="M40,266 L40,252 Q100,186 160,252 L160,266 Z" fill="url(#sand)"/>
+        </g>
+        <path d="M57,34 C57,95 92,122 97,150 C92,178 57,205 57,266 L143,266 C143,205 108,178 103,150 C108,122 143,95 143,34 Z" fill="url(#shine)" stroke="#fbe7c2" stroke-opacity=".75" stroke-width="2"/>
+        <rect x="28" y="18" width="144" height="18" rx="6" fill="url(#wood)"/>
+        <rect x="28" y="264" width="144" height="18" rx="6" fill="url(#wood)"/>
+        <rect x="37" y="34" width="8" height="232" rx="3" fill="url(#wood)"/>
+        <rect x="155" y="34" width="8" height="232" rx="3" fill="url(#wood)"/>
+      </g>
+    </svg>
+    <h1>Die Eieruhranbeter</h1>
+    <p class="motto">„Tempus fugit, ovum coquitur.“<small>Die Zeit vergeht, das Ei kocht.</small></p>
+    <p class="tag">Wir glauben an die Minute. An die vierte, die sechste und die zehnte. Alles andere ist „ungefähr“ – und „ungefähr“ ist der Anfang aller Gummi-Eier.</p>
+    <div class="btns">
+      <a class="btn" href="#ritual">⏳ Das Heilige Ritual beginnen</a>
+      <a class="btn ghost" href="#beitritt">🥚 Jetzt beitreten</a>
+    </div>
+    <p class="hint">(Bitte nicht zu oft auf die Heilige Uhr klicken.)</p>
+  </div>
+</header>
+
+<div class="stats" aria-label="Heilige Statistik">
+  <div class="wrap">
+    <div><b id="sMin">–</b><span>Minuten seit der Gründung</span></div>
+    <div><b id="sWach">–</b><span>wachsweiche Eier wären seither möglich gewesen</span></div>
+    <div><b>2</b><span>Mitglieder weltweit</span></div>
+    <div><b>+∞ %</b><span>Wachstum seit der Gründung</span></div>
+  </div>
+</div>
+
+<div class="marquee" aria-hidden="true"><span>TICK · TACK · TICK · TACK · DING 🔔 · TICK · TACK · TICK · TACK · DING 🔔 · TICK · TACK · TICK · TACK · DING 🔔 · TICK · TACK · TICK · TACK · DING 🔔 · TICK · TACK · TICK · TACK · DING 🔔 · TICK · TACK · TICK · TACK · DING 🔔 · TICK · TACK · TICK · TACK · DING 🔔 · TICK · TACK · TICK · TACK · DING 🔔 · </span></div>
+
+<section id="ritual">
+  <div class="wrap">
+    <span class="kicker">Das Heilige Ritual</span>
+    <h2>Stell die Uhr. Halte durch. Empfange das Ding.</h2>
+    <p class="lead">Jede Andacht beginnt mit kochendem Wasser und endet mit einem Klingeln. Wähle deinen Weg – die Uhr wacht über dich. Funktioniert auch mit echtem Ei. Vor allem mit echtem Ei.</p>
+    <div class="timer reveal" id="timerBox">
+      <div class="dial">
+        <svg viewBox="0 0 220 220" aria-hidden="true">
+          <circle class="ring-bg" cx="110" cy="110" r="96"/>
+          <g class="ticks" id="ticks"></g>
+          <circle class="ring-fg" id="ringFg" cx="110" cy="110" r="96" transform="rotate(-90 110 110)"/>
+        </svg>
+        <div class="ring-center" aria-live="polite">
+          <div class="egg-mini">🥚</div>
+          <div class="t-time" id="tTime">06:00</div>
+          <div class="t-state" id="tState">Zustand des Eis: roh</div>
+        </div>
+      </div>
+      <div>
+        <div class="presets" role="group" aria-label="Kochgrad wählen">
+          <button class="preset" data-p="weich" aria-pressed="false"><b>Weich · 4 min</b><small>flüssiger Dotter, für Mutige</small></button>
+          <button class="preset" data-p="wachsweich" aria-pressed="true"><b>Wachsweich · 6 min</b><small>die goldene Mitte</small></button>
+          <button class="preset" data-p="hart" aria-pressed="false"><b>Hart · 10 min</b><small>für Jause und Ältestenrat</small></button>
+          <button class="preset" data-p="probe" aria-pressed="false"><b>Novizen-Probe · 10 s</b><small>für Ungeduldige und Vorführungen</small></button>
+        </div>
+        <div class="controls">
+          <button class="btn" id="tStart">▶ Ritual starten</button>
+          <button class="btn ghost" id="tPause" disabled>⏸ Pause</button>
+          <button class="btn ghost" id="tStop" disabled>✖ Abbrechen</button>
+          <button class="btn ghost small" id="tSound" aria-pressed="true">🔔 Ton an</button>
+        </div>
+        <div class="liturgy"><span class="who">Die Uhr spricht</span><span id="liturgy">Wachsweich: 6 Minuten. Wasser sprudelnd kochen lassen, Ei hinein, dann starten.</span></div>
+        <p class="note">Richtwerte für Eier der Größe M, direkt ins sprudelnd kochende Wasser gelegt. Größere oder kühlschrankkalte Eier brauchen etwas länger. Die Uhr verzeiht nichts, das Ei schon gar nicht. <span id="ritualCount"></span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="offenbarung" class="alt">
+  <div class="wrap">
+    <span class="kicker">Die Offenbarung</span>
+    <h2>Wie alles begann</h2>
+    <p class="lead">Jede Glaubensgemeinschaft braucht eine Schöpfungsgeschichte. Wir haben zwei: eine poetische und eine, die tatsächlich so passiert ist.</p>
+    <div class="two">
+      <article class="scroll verses reveal">
+        <h3>Das Buch der Minuten, Kapitel 1</h3>
+        <p><sup>1</sup>Am Anfang war das Ei. Oder die Henne. Diese Frage ist bis heute ungeklärt, und genau darauf gründet sich unser Glaube.</p>
+        <p><sup>2</sup>Und die Welt war wüst und roh, und das Eiklar schwebte über dem Wasser.</p>
+        <p><sup>3</sup>Da sprach die Uhr: Es werde Zeit. Und es ward Zeit. Und die Zeit war sechs Minuten, und siehe, es war wachsweich.</p>
+        <p><sup>4</sup>Und die Uhr schied das Weiche vom Harten und nannte das Weiche „Frühstück“ und das Harte „Jause“.</p>
+        <p><sup>5</sup>Am vierten Tage schuf sie den Toast, am fünften das Salz und am sechsten den Eierbecher, auf dass das Ei nicht umfalle.</p>
+        <p><sup>6</sup>Am siebten Tage aber ruhte sie, denn sie war abgelaufen. Und man drehte sie um, und alles begann von vorn.</p>
+        <p><sup>7</sup>Darum gilt bis heute: Ein Ende ist bei uns nur ein Anfang, den man umdreht.</p>
+      </article>
+      <article class="scroll legend reveal">
+        <h3>Das Wunder von 20:16 Uhr</h3>
+        <p>Es geschah an einem Montagabend im November, in einem Chat, wie so vieles in diesen Zeiten.</p>
+        <p class="chat"><span class="time">20:15</span>„Ich kann in 5 Minuten über jedes beliebige Thema eine Homepage erstellen. Ok, 10 Minuten.“</p>
+        <p>Da erkannten die Gläubigen das erste Zeichen: Er hatte soeben von <b>weich</b> auf <b>hart</b> umgestellt.</p>
+        <p class="chat"><span class="time">20:15</span>„Mach für unsere Sekte.“ – „Wie soll sie heißen?“</p>
+        <p class="chat"><span class="time">20:16</span>„Eieruhranbeter.“</p>
+        <p>Die Gründung hatte exakt <b>eine Minute</b> gedauert – die vermutlich schnellste Gründung einer Glaubensgemeinschaft seit Erfindung der Uhr. Seither gilt: Jede Minute ist heilig. Manche mehr als andere.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="gebote">
+  <div class="wrap">
+    <span class="kicker">Das Gesetz</span>
+    <h2>Die Zehn Gebote der Heiligen Minute</h2>
+    <p class="lead">Überliefert in Stein. Na gut, in CSS. Aber mit Steinoptik.</p>
+    <div class="tablets">
+      <div class="tablet reveal">
+        <ol>
+          <li><b>Ich bin die Eieruhr, deine Uhr.</b><span>Du sollst keine anderen Timer haben neben mir.</span></li>
+          <li><b>Du sollst die Eieruhr nicht unnütz verstellen.</b><span>Wer dreht, der kocht.</span></li>
+          <li><b>Gedenke des Sonntagsfrühstücks, dass du es heiligst.</b><span>Bademantel ist erlaubt.</span></li>
+          <li><b>Du sollst die Henne ehren.</b><span>Ohne sie wäre das alles ein sehr kurzes Ritual.</span></li>
+          <li><b>Du sollst nicht „ungefähr“ sagen.</b><span>„Ungefähr“ ist der Anfang aller Gummi-Eier.</span></li>
+        </ol>
+      </div>
+      <div class="tablet reveal">
+        <ol style="counter-reset:g 5">
+          <li><b>Du sollst das Ei nicht vor dem Ding öffnen.</b><span>Neugier ist menschlich. Schleim ist die Strafe.</span></li>
+          <li><b>Du sollst nicht abschrecken vor der Wahrheit.</b><span>Das Ei schon.</span></li>
+          <li><b>Du sollst kein falsches Zeugnis ablegen über deine Kochzeit.</b><span>„Bei mir sind’s immer fünf Minuten“ ist keine Lehrmeinung, sondern eine Ausrede.</span></li>
+          <li><b>Du sollst nicht begehren deines Nächsten Mikrowelle.</b><span>Ein Ei in der Schale kann darin platzen. Das ist kein Gleichnis, das ist Physik.</span></li>
+          <li><b>Du sollst nicht schlüpfen lassen, was zum Frühstück bestimmt ist.</b><span>Der Ältestenrat hat dazu eine klare Meinung.</span></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="raenge" class="alt">
+  <div class="wrap">
+    <span class="kicker">Die Heilige Hierarchie</span>
+    <h2>Vom Rohling zum Großmeister</h2>
+    <p class="lead">Bei uns steigt man nicht auf. Man wird gar.</p>
+    <div class="ranks">
+      <div class="rank reveal"><div class="egg whole"></div><h3>Rohling</h3><span class="min">0 Minuten</span><p>Novize. Noch flüssig im Glauben. Hat die Uhr einmal umgedreht und war beeindruckt.</p></div>
+      <div class="rank reveal"><div class="egg weich"><i></i></div><h3>Weichei</h3><span class="min">4 Minuten · 1. Weihe</span><p>Weich im Kern, aber auf dem richtigen Weg. Der Titel ist eine Ehre. Wirklich.</p></div>
+      <div class="rank reveal"><div class="egg wachs"><i></i></div><h3>Wachsweich</h3><span class="min">6 Minuten · 2. Weihe</span><p>Die goldene Mitte. Außen gefestigt, innen Erleuchtung. Hier wohnt der wahre Glaube.</p></div>
+      <div class="rank reveal"><div class="egg hart"><i></i></div><h3>Hartgekocht</h3><span class="min">10 Minuten · Ältestenrat</span><p>Durch nichts mehr zu erschüttern, nicht einmal durch kaltes Wasser. Zuständig für Jausen und Dogmen.</p></div>
+      <div class="rank reveal"><div class="egg gold"></div><h3>Großmeister:in vom Goldenen Dotter</h3><span class="min">∞ Minuten</span><p>Es kann nur eine:n geben. Hört das Ding, bevor es klingelt.</p></div>
+    </div>
+    <div class="specials">
+      <div class="chip">🍳 <b>Spiegelei</b> – hat die Schale verlassen. Wird geduldet, aber beobachtet.</div>
+      <div class="chip">🥣 <b>Rührei</b> – exkommuniziert. Hat die Ordnung verrührt.</div>
+      <div class="chip">🐣 <b>Küken</b> – theologisch ungeklärt. Wir sprechen nicht darüber.</div>
+    </div>
+  </div>
+</section>
+
+<section id="schisma" class="dark">
+  <div class="wrap two">
+    <div class="reveal">
+      <span class="kicker">Das Große Schisma</span>
+      <h2>Spitz oder stumpf?</h2>
+      <p>Kein Streit hat die Eier-Welt so gespalten wie die Frage, an welchem Ende man das Ei aufschlägt. Schon <b>Jonathan Swift</b> beschrieb 1726 in „Gullivers Reisen“ einen Krieg zwischen Lilliput und Blefuscu über genau diese Frage. Laut Swift starben 11.000 Menschen lieber, als ihr Ei am kleinen Ende aufzuschlagen.</p>
+      <p>1980 trug der Informatiker <b>Danny Cohen</b> den Streit in die Computerwelt: In seinem Aufsatz „On Holy Wars and a Plea for Peace“ – veröffentlicht am 1. April – benannte er die beiden Arten, Bytes zu ordnen, nach Swifts Parteien: <b>Big-Endian</b> und <b>Little-Endian</b>. Die Begriffe gelten bis heute.</p>
+      <p>Das Ei hat also die Informatik geprägt. Wir sagen das nur.</p>
+    </div>
+    <div class="reveal">
+      <h3>Bekenne dich</h3>
+      <button class="vote" data-v="spitz" aria-pressed="false"><b>🔺 Spitzes Ende</b><br><small>Little-Endian · Lilliput</small></button>
+      <button class="vote" data-v="stumpf" aria-pressed="false"><b>⏺ Stumpfes Ende</b><br><small>Big-Endian · Blefuscu</small></button>
+      <button class="vote" data-v="seitlich" aria-pressed="false"><b>↔ Seitlich</b><br><small>Middle-Endian · Ketzerei mit Geschichte</small></button>
+      <div class="vote-result" id="voteResult" aria-live="polite"></div>
+      <p class="small">Dein Bekenntnis wird nur in deinem Browser gespeichert. Die Inquisition erfährt nichts.</p>
+    </div>
+  </div>
+</section>
+
+<section id="irrlehren">
+  <div class="wrap">
+    <span class="kicker">Warnung</span>
+    <h2>Irrlehren, vor denen wir warnen</h2>
+    <p class="lead">Nicht jeder, der ein Ei kocht, ist auf dem rechten Weg. Erkenne die falschen Propheten.</p>
+    <div class="cards">
+      <div class="heresy reveal"><span class="stamp">IRRLEHRE</span><span class="ico">📡</span><h3>Die Mikrowellisten</h3><p>Garen das Ei in der Schale in der Mikrowelle. Der Dampf im Inneren kann es zum Platzen bringen – manchmal erst beim Anschneiden. Wir nennen das: göttliche Rückmeldung.</p></div>
+      <div class="heresy reveal"><span class="stamp">IRRLEHRE</span><span class="ico">🧪</span><h3>Die Eierkocher-Kirche</h3><p>Vertrauen dem Messbecher statt der Minute: Beim elektrischen Eierkocher bestimmt die Wassermenge die Garzeit. Technisch klug. Theologisch ein Skandal.</p></div>
+      <div class="heresy reveal"><span class="stamp">IRRLEHRE</span><span class="ico">👍</span><h3>Die Daumenpeiler</h3><p>Kochen „Pi mal Daumen“. Ihre Eier sind mal flüssig, mal Gummi, nie heilig. Unser Mitleid ist ihnen gewiss.</p></div>
+      <div class="heresy reveal"><span class="stamp">IRRLEHRE</span><span class="ico">📱</span><h3>Die Smartphonetiker</h3><p>Stellen den Timer am Handy und lesen dann neun Minuten Nachrichten. Das Ei bemerkt den Verrat. Ausnahme: diese Website. Wir sind flexibel, wenn es uns nützt.</p></div>
+      <div class="heresy reveal"><span class="stamp">UNGEKLÄRT</span><span class="ico">🧊</span><h3>Die Kaltwasser-Frage</h3><p>Ei ins kalte Wasser und erst ab dem Sprudeln zählen? Das ist keine Irrlehre, das ist ein Mysterium. Das Konzil tagt seit 1726 und ist sich weiterhin uneins.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="fakten" class="alt">
+  <div class="wrap">
+    <span class="kicker">Ja, das stimmt wirklich</span>
+    <h2>Die Wissenschaft des Glaubens</h2>
+    <p class="lead">Satire ist erlaubt, Unsinn nicht. Diese Zahlen sind echt – nur unsere Schlussfolgerungen sind es nicht.</p>
+    <div class="facts">
+      <div class="fact reveal"><div class="big">ca. 62 °C</div><p>Ab dieser Temperatur beginnt das Eiklar zu stocken.</p></div>
+      <div class="fact reveal"><div class="big">ca. 65 °C</div><p>Ab hier wird das Eigelb langsam fest. Zwischen diesen beiden Zahlen liegt das ganze Geheimnis des wachsweichen Eis. <em>Und unsere Theologie.</em></p></div>
+      <div class="fact reveal"><div class="big">Grüner Rand</div><p>Zu lange gekocht? Schwefel aus dem Eiklar und Eisen aus dem Dotter bilden Eisensulfid – der grünliche Ring. <em>Bei uns: das Mal der Vergesslichen.</em></p></div>
+      <div class="fact reveal"><div class="big">rund 87 °C</div><p>So heiß kocht Wasser auf dem Großglockner (3.798 m) bei normalem Luftdruck. Das Ei braucht dort deutlich länger. <em>Pilgern verlängert das Ritual.</em></p></div>
+      <div class="fact reveal"><div class="big">1726</div><p>Jonathan Swift erzählt in „Gullivers Reisen“ vom Krieg um das richtige Ende des Eis.</p></div>
+      <div class="fact reveal"><div class="big">1. April 1980</div><p>Danny Cohen überträgt Big- und Little-Endian auf die Byte-Reihenfolge in Computern. <em>Das Datum ist kein Zufall.</em></p></div>
+      <div class="fact reveal"><div class="big">1996, Wien</div><p>Der Welt-Ei-Tag wird ausgerufen – seither jedes Jahr am zweiten Freitag im Oktober. <em>Österreich: Heiliges Land.</em></p></div>
+    </div>
+    <p class="src">Quellen: Jonathan Swift, „Gulliver’s Travels“ (1726), Teil I, Kapitel 4 · Danny Cohen, „On Holy Wars and a Plea for Peace“, IEN 137 (1. April 1980) · International Egg Commission / World Egg Organisation: World Egg Day · Siedepunkt berechnet nach der internationalen Standardatmosphäre · Gerinnungstemperaturen: gängige Richtwerte der Lebensmittelchemie.</p>
+  </div>
+</section>
+
+<section id="ablass">
+  <div class="wrap center">
+    <span class="kicker">Vergebung auf Knopfdruck</span>
+    <h2>Der Ablass-Automat</h2>
+    <p class="lead">Zu hart gekocht? Zu früh geöffnet? Am Handy getimt? Kein Grund zur Verzweiflung. Kosten: ein Ei. Gekocht. Exakt.</p>
+    <div class="ticket reveal">
+      <div class="seal">📜</div>
+      <div id="ablassText" aria-live="polite">Drück den Knopf. Die Uhr vergibt – in Grenzen.</div>
+      <div id="ablassMeta"></div>
+      <button class="btn" id="ablassBtn">🎟️ Ablass ziehen</button>
+    </div>
+  </div>
+</section>
+
+<section id="feste" class="alt">
+  <div class="wrap">
+    <span class="kicker">Der Heilige Kalender</span>
+    <h2>Feste und Feiertage</h2>
+    <div class="countdown" id="festCount">Gründungsfest wird berechnet …</div>
+    <div class="feasts">
+      <div class="feast reveal"><div class="when">16. November</div><div><h3>Gründungsfest · Tag der Heiligen Minute</h3><p>Gefeiert um 20:16 Uhr mit einer Schweigeminute. Genau einer.</p></div></div>
+      <div class="feast reveal"><div class="when">Ostern<br><small>nächstes: 28.03.2027</small></div><div><h3>Hochfest der Bunten Schalen</h3><p>Höhepunkt ist das Eierpecken: Wessen Ei heil bleibt, gewinnt. Wessen Ei bricht, wird gegessen. So einfach ist Gerechtigkeit.</p></div></div>
+      <div class="feast reveal"><div class="when">1. April</div><div><h3>Tag der Endianer</h3><p>In Erinnerung an Danny Cohens Friedensappell von 1980. Man schlägt das Ei an beiden Enden auf. Aus Respekt.</p></div></div>
+      <div class="feast reveal"><div class="when">2. Freitag im Oktober<br><small>nächster: 08.10.2027</small></div><div><h3>Welt-Ei-Tag</h3><p>1996 in Wien ausgerufen. Wir feiern mit, ob man uns eingeladen hat oder nicht.</p></div></div>
+      <div class="feast reveal"><div class="when">Jeden Sonntag</div><div><h3>Frühstücksmesse</h3><p>Ablauf: Wasser, Uhr, Ei, Salz, Andacht. Kleiderordnung: Bademantel. Handy bleibt in der Lade.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="beitritt">
+  <div class="wrap">
+    <span class="kicker">Die Aufnahme</span>
+    <h2>Werde Eieruhranbeter:in</h2>
+    <p class="lead">Keine Gebühr, keine Verpflichtung, keine Rückfragen. Nur ein Ausweis, der beweist, dass du an die Minute glaubst.</p>
+    <div class="join">
+      <div>
+        <form id="joinForm" class="reveal" autocomplete="off">
+          <label for="fName">Vorname</label>
+          <input id="fName" maxlength="24" placeholder="z. B. Hildegard" required>
+          <div class="row2">
+            <div>
+              <label for="fAnrede">Anrede im Orden</label>
+              <select id="fAnrede"><option>Bruder</option><option>Schwester</option><option>Geschwister</option></select>
+            </div>
+            <div>
+              <label for="fGrad">Heiliger Kochgrad</label>
+              <select id="fGrad"><option value="weich">weich (4 min)</option><option value="wachsweich" selected>wachsweich (6 min)</option><option value="hart">hart (10 min)</option></select>
+            </div>
+          </div>
+          <label for="fKonf">Konfession (Aufschlag-Ende)</label>
+          <select id="fKonf"><option value="spitz">Spitzes Ende (Little-Endian)</option><option value="stumpf" selected>Stumpfes Ende (Big-Endian)</option><option value="seitlich">Seitlich (wir reden nicht darüber)</option></select>
+          <div class="btns" style="justify-content:flex-start;margin-top:20px"><button class="btn" type="submit">🥚 Feierlich beitreten</button></div>
+          <p class="privacy">Wird nur in deinem Browser gespeichert (localStorage). Wir sehen nichts, wir wissen nichts, wir kochen nur.</p>
+        </form>
+        <div id="card" class="card" hidden>
+          <div class="card-top"><span>⏳ ORDEN DER EIERUHRANBETER</span><span id="cNr"></span></div>
+          <div class="card-body">
+            <div class="card-egg">🥚</div>
+            <div>
+              <div class="c-label">Ordensname</div>
+              <div class="c-name" id="cName"></div>
+              <div class="c-grid">
+                <div><div class="c-label">Rang</div><div id="cRang"></div></div>
+                <div><div class="c-label">Heilige Kochzeit</div><div id="cZeit"></div></div>
+                <div><div class="c-label">Konfession</div><div id="cKonf"></div></div>
+                <div><div class="c-label">Aufgenommen</div><div id="cDat"></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="card-foot">Gültig, solange die Uhr tickt · gez. Der Hohe Rat der Hartgekochten</div>
+        </div>
+        <div class="card-actions" id="cardActions" hidden>
+          <button class="btn small" id="cPrint">🖨 Ausweis drucken</button>
+          <button class="btn small ghost" data-share>📣 Missionieren</button>
+          <button class="btn small ghost" id="cLeave">🚪 Austreten</button>
+        </div>
+      </div>
+      <div class="reveal">
+        <h3>Was dich erwartet</h3>
+        <ul class="perks">
+          <li>Ein persönlicher Ordensname – unverbindlich, aber sehr verbindlich klingend.</li>
+          <li>Ewiges Recht auf perfekte Frühstückseier (bei korrekter Anwendung der Uhr).</li>
+          <li>Stimmrecht im Großen Schisma. Ohne jede Folge, wie es sich gehört.</li>
+          <li>Unbegrenzter Zugang zum Ablass-Automaten. Hatte eh jeder.</li>
+          <li>Keine Mitgliedsgebühr. Spenden ausschließlich in Form von Eiern.</li>
+          <li>Ein Platz in der Statistik. Wir sind dann zu dritt. Mindestens.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq" class="alt">
+  <div class="wrap">
+    <span class="kicker">Fragen von Ungläubigen</span>
+    <h2>Häufig gestellte Fragen</h2>
+    <details><summary>Ist das eine Sekte?</summary><p>Wir bevorzugen „Glaubensgemeinschaft mit Zeitgefühl“. Und: Es ist Satire. Niemand muss irgendetwas glauben – außer dass sechs Minuten sechs Minuten sind.</p></details>
+    <details><summary>Muss ich Eier mögen?</summary><p>Nein. Heilig ist die Uhr, nicht das Ei. Das Ei ist nur der Anlass. Veganer:innen sind herzlich willkommen und dürfen Kartoffeln timen.</p></details>
+    <details><summary>Darf ich die Uhr am Handy verwenden?</summary><p>Im Notfall. Diese Website ist so ein Notfall. Danach bitte drei Minuten Reue.</p></details>
+    <details><summary>Wurde diese Homepage wirklich in 10 Minuten gebaut?</summary><p>Versprochen waren erst 5 Minuten, dann 10. Das ist genau der Unterschied zwischen weich und hart. Wir haben uns für hart entschieden.</p></details>
+    <details><summary>Was passiert, wenn die Uhr stehen bleibt?</summary><p>Dann steht die Zeit still. Das Wasser leider nicht. Für diesen Fall empfiehlt der Ältestenrat: Ei herausnehmen, beten, Rührei machen. Danach Ablass ziehen.</p></details>
+    <details><summary>Wie trete ich aus?</summary><p>Jederzeit, mit einem Klick auf deinem Ausweis. Aber wir müssen dich warnen: Dein nächstes Frühstücksei wird „ungefähr“ sein.</p></details>
+    <details><summary>Gibt es Missionierung?</summary><p>Nur durch Vorbild: perfekte Frühstückseier. Und durch diesen Link, den du gleich weiterschicken wirst.</p></details>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="brand">🥚 Die Eieruhranbeter</div>
+    <p>Gemeinschaft der Heiligen Minute · gegründet am 16.11.2026 um 20:16 Uhr in einem Chat · Gründungsdauer: 1 Minute.</p>
+    <div class="btns">
+      <a class="btn small" data-wa href="#" target="_blank" rel="noopener">📲 Per WhatsApp missionieren</a>
+      <button class="btn small ghost" data-share>🔗 Link teilen</button>
+    </div>
+    <p><b>Satire.</b> Die Eieruhranbeter sind keine echte Religionsgemeinschaft und haben nicht vor, beim Kultusamt anzuklopfen. Für diese Seite wurde kein Ei verletzt. (Gelogen. Es waren mehrere.)</p>
+    <p><b>Datenschutz:</b> keine Cookies, keine externen Schriften, keine Skripte von Drittanbietern. Ausweis, Bekenntnis und Ritual-Zähler bleiben ausschließlich in deinem Browser (localStorage). Die Seite liegt bei GitHub Pages; GitHub protokolliert laut eigener Dokumentation die IP-Adressen der Besucher.</p>
+  </div>
+</footer>
+
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(() => {
+'use strict';
+
+/* ===== CONFIG – hier lässt sich die Seite anpassen ===== */
+const CONFIG = {
+  gruendung: Date.UTC(2026, 10, 16, 19, 16, 0), // 16.11.2026, 20:16 Uhr MEZ
+  storeKey: 'eieruhranbeter.v1'
+};
+
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
+const pad = n => String(n).padStart(2, '0');
+const fmtDate = d => `${pad(d.getDate())}.${pad(d.getMonth() + 1)}.${d.getFullYear()}`;
+const fmtTime = d => `${pad(d.getHours())}:${pad(d.getMinutes())}`;
+const nf = new Intl.NumberFormat('de-AT');
+const reduceMotion = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* ----- Speicher (nur im Browser) ----- */
+const store = {
+  get() { try { return JSON.parse(localStorage.getItem(CONFIG.storeKey)) || {}; } catch (e) { return {}; } },
+  set(patch) { try { localStorage.setItem(CONFIG.storeKey, JSON.stringify(Object.assign(this.get(), patch))); } catch (e) {} },
+  remove(key) { try { const d = this.get(); delete d[key]; localStorage.setItem(CONFIG.storeKey, JSON.stringify(d)); } catch (e) {} }
+};
+
+/* ----- Hinweis-Leiste ----- */
+const toastEl = $('#toast');
+let toastTimer;
+function toast(msg) {
+  toastEl.textContent = msg;
+  toastEl.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => toastEl.classList.remove('show'), 4200);
+}
+
+/* ----- Eier-Regen ----- */
+function eggRain(symbols) {
+  if (reduceMotion) return;
+  const set = symbols || ['🥚', '🍳', '⏳', '🥚', '🔔'];
+  for (let i = 0; i < 42; i++) {
+    const s = document.createElement('span');
+    s.className = 'drop';
+    s.textContent = set[i % set.length];
+    s.style.left = (Math.random() * 100) + 'vw';
+    s.style.fontSize = (18 + Math.random() * 28) + 'px';
+    s.style.animationDuration = (2.6 + Math.random() * 2.6) + 's';
+    s.style.animationDelay = (Math.random() * 1.2) + 's';
+    document.body.appendChild(s);
+    setTimeout(() => s.remove(), 7000);
+  }
+}
+
+/* ----- Glocke (Web Audio, kein externer Ton) ----- */
+let actx = null;
+let soundOn = true;
+function unlockAudio() {
+  try {
+    const AC = window.AudioContext || window.webkitAudioContext;
+    if (!AC) return;
+    actx = actx || new AC();
+    if (actx.state === 'suspended') actx.resume();
+  } catch (e) {}
+}
+function bell(strikes = 3) {
+  if (!soundOn || !actx) return;
+  try {
+    const now = actx.currentTime;
+    for (let k = 0; k < strikes; k++) {
+      const t = now + k * 0.5;
+      [[880, 1], [1320, .45], [1760, .3], [2640, .12]].forEach(([f, g]) => {
+        const o = actx.createOscillator();
+        const v = actx.createGain();
+        o.type = 'sine';
+        o.frequency.value = f * (k % 2 ? 1.06 : 1);
+        v.gain.setValueAtTime(0.0001, t);
+        v.gain.exponentialRampToValueAtTime(0.22 * g, t + 0.01);
+        v.gain.exponentialRampToValueAtTime(0.0001, t + 1.7);
+        o.connect(v); v.connect(actx.destination);
+        o.start(t); o.stop(t + 1.8);
+      });
+    }
+  } catch (e) {}
+}
+
+/* ----- Heilige Statistik ----- */
+function stats() {
+  const min = Math.max(0, Math.floor((Date.now() - CONFIG.gruendung) / 60000));
+  $('#sMin').textContent = nf.format(min);
+  $('#sWach').textContent = nf.format(Math.floor(min / 6));
+}
+stats();
+setInterval(stats, 1000);
+
+/* ----- Easter Egg an der Heiligen Uhr ----- */
+let glassClicks = 0;
+$('#heroGlass').addEventListener('click', () => {
+  glassClicks++;
+  const msgs = {
+    3: 'Bitte nicht an der Heiligen Uhr rütteln.',
+    5: 'Letzte Warnung. Die Uhr wird ungeduldig.',
+    7: '🐣 Ketzerei! Das Ei war befruchtet. Der Ältestenrat ist informiert.'
+  };
+  if (msgs[glassClicks]) toast(msgs[glassClicks]);
+  if (glassClicks === 7) { eggRain(['🐣', '🐥', '🐤']); glassClicks = 0; }
+});
+
+/* ===== Das Heilige Ritual (Timer) ===== */
+const PRESETS = {
+  weich:      { s: 240, label: 'Weich' },
+  wachsweich: { s: 360, label: 'Wachsweich' },
+  hart:       { s: 600, label: 'Hart' },
+  probe:      { s: 10,  label: 'Novizen-Probe' }
+};
+const LITURGIE = [
+  'Das Wasser brodelt. Der Glaube wächst.',
+  'Schau nicht aufs Handy. Schau auf die Uhr. (Ja, wir wissen, dass das hier ein Handy sein könnte.)',
+  'Tick. Tack. Tick. Tack.',
+  'Geduld ist die Mutter des Dotters.',
+  'Bei rund 62 °C beginnt das Eiklar zu stocken. So steht es geschrieben – und so ist es auch.',
+  'Wer jetzt herausnimmt, löffelt Schleim. So spricht die Uhr.',
+  'Der Toast wird bereitet. Der Löffel wird gewärmt.',
+  'Sei wachsweich zu deinen Nächsten, aber unerbittlich zu deinem Timer.',
+  'Zweifel ist erlaubt. Abbrechen nicht.',
+  'Auch die längste Minute hat nur 60 Sekunden.',
+  'Denk an die Henne. Sie hat ihren Teil getan. Jetzt bist du dran.',
+  'Das Ei weiß nicht, dass es beobachtet wird. Oder doch?',
+  'Atme ein: Tick. Atme aus: Tack.',
+  'Es gibt kein „fast fertig“. Es gibt nur fertig und nicht fertig.',
+  'Der Eierbecher steht bereit wie ein Altar.',
+  'Wer das Ei liebt, lässt es ausreden.'
+];
+const C = 2 * Math.PI * 96;
+const ring = $('#ringFg');
+ring.style.strokeDasharray = C.toFixed(2);
+
+// Minutenstriche am Zifferblatt
+(() => {
+  const g = $('#ticks');
+  for (let i = 0; i < 60; i++) {
+    const a = i * 6 * Math.PI / 180;
+    const r1 = i % 5 === 0 ? 74 : 79, r2 = 84;
+    const l = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+    l.setAttribute('x1', (110 + r1 * Math.sin(a)).toFixed(1));
+    l.setAttribute('y1', (110 - r1 * Math.cos(a)).toFixed(1));
+    l.setAttribute('x2', (110 + r2 * Math.sin(a)).toFixed(1));
+    l.setAttribute('y2', (110 - r2 * Math.cos(a)).toFixed(1));
+    g.appendChild(l);
+  }
+})();
+
+let preset = 'wachsweich';
+let total = PRESETS[preset].s;
+let remaining = total * 1000;
+let endAt = 0, running = false, timer = null, lastLit = 0, litIdx = -1, warned = false;
+const baseTitle = document.title;
+const box = $('#timerBox');
+
+function doneness(elapsed) {
+  if (preset === 'probe') return elapsed >= total ? 'spirituell gar' : 'Probe-Ei (rein symbolisch)';
+  if (elapsed < 60)  return 'roh – noch ist alles offen';
+  if (elapsed < 180) return 'glasig – bitte nicht hinschauen';
+  if (elapsed < 240) return 'fast weich – Geduld!';
+  if (elapsed < 360) return 'weich – flüssiger Dotter';
+  if (elapsed < 540) return 'wachsweich – die goldene Mitte';
+  return 'hart – bereit für die Jause';
+}
+function render() {
+  const ms = Math.max(0, remaining);
+  const s = Math.ceil(ms / 1000);
+  const txt = `${pad(Math.floor(s / 60))}:${pad(s % 60)}`;
+  $('#tTime').textContent = txt;
+  ring.style.strokeDashoffset = (C * (1 - ms / (total * 1000))).toFixed(2);
+  $('#tState').textContent = 'Zustand des Eis: ' + doneness(total - ms / 1000);
+  if (running) document.title = `⏳ ${txt} · Eieruhranbeter`;
+}
+function say(t) {
+  const el = $('#liturgy');
+  el.classList.remove('in');
+  void el.offsetWidth;
+  el.textContent = t;
+  el.classList.add('in');
+}
+function nextLit() {
+  litIdx = (litIdx + 1 + Math.floor(Math.random() * (LITURGIE.length - 1))) % LITURGIE.length;
+  return LITURGIE[litIdx];
+}
+function setButtons(state) {
+  const start = $('#tStart'), pause = $('#tPause'), stop = $('#tStop');
+  $$('.preset').forEach(b => b.disabled = state === 'running' || state === 'paused');
+  if (state === 'running') { start.disabled = true; pause.disabled = false; stop.disabled = false; }
+  if (state === 'paused')  { start.disabled = false; start.textContent = '▶ Fortsetzen'; pause.disabled = true; stop.disabled = false; }
+  if (state === 'idle')    { start.disabled = false; start.textContent = '▶ Ritual starten'; pause.disabled = true; stop.disabled = true; }
+  if (state === 'done')    { start.disabled = false; start.textContent = '↻ Noch ein Ei'; pause.disabled = true; stop.disabled = true; }
+}
+function setPreset(p) {
+  if (running) return;
+  preset = p; total = PRESETS[p].s; remaining = total * 1000; warned = false;
+  $$('.preset').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.p === p)));
+  box.classList.remove('done');
+  setButtons('idle');
+  say(p === 'probe'
+    ? 'Zehn Sekunden. Für den kleinen Glauben.'
+    : `${PRESETS[p].label}: ${total / 60} Minuten. Wasser sprudelnd kochen lassen, Ei hinein, dann starten.`);
+  render();
+}
+function start() {
+  if (running) return;
+  unlockAudio();
+  const fresh = remaining <= 0 || remaining >= total * 1000;
+  if (remaining <= 0) { remaining = total * 1000; warned = false; }
+  endAt = Date.now() + remaining;
+  running = true;
+  lastLit = Date.now();
+  box.classList.remove('done');
+  box.classList.add('running');
+  setButtons('running');
+  say(fresh ? 'Das Ritual beginnt. Tick.' : 'Weiter geht’s. Die Uhr hat gewartet. Das Wasser nicht.');
+  timer = setInterval(step, 200);
+  step();
+}
+function step() {
+  remaining = endAt - Date.now();
+  if (remaining <= 0) { finish(); return; }
+  const now = Date.now();
+  if (!warned && remaining <= 30000 && total >= 60) {
+    warned = true; lastLit = now;
+    say('Die letzten 30 Sekunden. Bereite dich auf das Ding vor. Salz bereithalten.');
+  } else if (now - lastLit > 20000) {
+    lastLit = now;
+    say(nextLit());
+  }
+  render();
+}
+function pause() {
+  if (!running) return;
+  clearInterval(timer);
+  running = false;
+  remaining = endAt - Date.now();
+  box.classList.remove('running');
+  setButtons('paused');
+  document.title = baseTitle;
+  say('Die Zeit steht still. Das Wasser leider nicht.');
+  render();
+}
+function stop() {
+  clearInterval(timer);
+  running = false; warned = false;
+  remaining = total * 1000;
+  box.classList.remove('running', 'done');
+  setButtons('idle');
+  document.title = baseTitle;
+  say('Ritual abgebrochen. Buße: drei Minuten Stille vor dem Herd.');
+  render();
+}
+function finish() {
+  clearInterval(timer);
+  running = false; warned = false;
+  remaining = 0;
+  render();
+  box.classList.remove('running');
+  box.classList.add('done');
+  setButtons('done');
+  document.title = '🔔 DING! · Eieruhranbeter';
+  say(preset === 'probe'
+    ? 'DING! Probe bestanden. Du bist bereit für ein echtes Ei.'
+    : 'DING! Das Ei ist vollbracht. Ab ins kalte Wasser – und Halleluja!');
+  bell(3);
+  if (navigator.vibrate) { try { navigator.vibrate([300, 120, 300, 120, 600]); } catch (e) {} }
+  eggRain();
+  const n = (store.get().rituale || 0) + 1;
+  store.set({ rituale: n });
+  showRituals();
+  setTimeout(() => { if (!running) document.title = baseTitle; }, 15000);
+}
+function showRituals() {
+  const n = store.get().rituale || 0;
+  $('#ritualCount').textContent = n ? `Von dir vollzogene Rituale: ${n}.` : '';
+}
+$$('.preset').forEach(b => b.addEventListener('click', () => setPreset(b.dataset.p)));
+$('#tStart').addEventListener('click', start);
+$('#tPause').addEventListener('click', pause);
+$('#tStop').addEventListener('click', stop);
+$('#tSound').addEventListener('click', e => {
+  soundOn = !soundOn;
+  e.currentTarget.setAttribute('aria-pressed', String(soundOn));
+  e.currentTarget.textContent = soundOn ? '🔔 Ton an' : '🔕 Ton aus';
+  if (soundOn) { unlockAudio(); bell(1); }
+});
+render();
+showRituals();
+
+/* ===== Das Große Schisma ===== */
+const KONF = {
+  spitz:    { t: 'Spitzes Ende (Little-Endian)', msg: 'Du bist Spitz-Ender:in – treu dem Kaiser von Lilliput. In der IT stehst du auf der Seite der x86-Prozessoren: Sie speichern Zahlen mit dem kleinsten Byte zuerst.' },
+  stumpf:   { t: 'Stumpfes Ende (Big-Endian)', msg: 'Du bist Stumpf-Ender:in – im Geiste Blefuscus. In der IT bist du Netzwerk-Byte-Order: Internetprotokolle schicken das größte Byte zuerst.' },
+  seitlich: { t: 'Seitlich (Middle-Endian)', msg: 'Seitlich? Das ist das Middle-Endian-Schisma. Gab es wirklich, etwa bei der PDP-11. Wir sprechen trotzdem nicht darüber.' }
+};
+function showVote(v) {
+  $$('.vote').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.v === v)));
+  const r = $('#voteResult');
+  r.textContent = v && KONF[v] ? KONF[v].msg : '';
+  if (v && KONF[v]) { r.classList.remove('in'); void r.offsetWidth; r.classList.add('in'); $('#fKonf').value = v; }
+}
+$$('.vote').forEach(b => b.addEventListener('click', () => { store.set({ konf: b.dataset.v }); showVote(b.dataset.v); }));
+showVote(store.get().konf);
+
+/* ===== Ablass-Automat ===== */
+const ABLASS = [
+  'Für ein zu hart gekochtes Ei: drei Minuten Stille vor dem Herd.',
+  'Für Rührei aus Verlegenheit: einmal laut „Die Ordnung ist wiederhergestellt“ sagen.',
+  'Für das Timen mit dem Handy: diese Seite einem Ungläubigen schicken.',
+  'Für „ungefähr fünf Minuten“: das nächste Ei mit Sanduhr UND Stoppuhr kochen.',
+  'Für ein geplatztes Ei: Schweigen. Das Ei hat genug gelitten.',
+  'Für die Benutzung eines Eierkochers: den Messbecher einen Tag lang nicht ansehen.',
+  'Für das Aufschlagen am „falschen“ Ende: Es gibt kein falsches Ende, nur ein anderes. Ablass gewährt, Inquisition verständigt.',
+  'Für vergessenes Salz: Ablass verweigert. Manche Dinge sind unverzeihlich.',
+  'Für ein Frühstück ohne Eierbecher: den Eierbecher abstauben und um Verzeihung bitten.',
+  'Für einen grünen Rand: Du warst abgelenkt. Wir verstehen das. Die Uhr nicht.',
+  'Für das Verräumen der Eieruhr in eine Lade: sofort herausholen und auf einen Ehrenplatz stellen.',
+  'Für Mikrowellen-Gedanken: drei Ave-Minuten, laut gezählt.',
+  'Für Spott über die Gemeinschaft: Ablass gewährt. Humor ist bei uns ein Sakrament.',
+  'Für ein perfekt wachsweiches Ei: kein Ablass nötig. Du bist gesegnet.',
+  'Für das Ausblasen und Bemalen zu Ostern: ausnahmsweise erlaubt. Kunst ist auch Gebet.'
+];
+let ablassLast = -1;
+$('#ablassBtn').addEventListener('click', () => {
+  let i;
+  do { i = Math.floor(Math.random() * ABLASS.length); } while (i === ablassLast);
+  ablassLast = i;
+  const d = new Date();
+  const t = $('#ablassText');
+  t.classList.remove('in'); void t.offsetWidth;
+  t.textContent = ABLASS[i];
+  t.classList.add('in');
+  $('#ablassMeta').textContent = `Ablass Nr. ${1000 + Math.floor(Math.random() * 9000)} · ausgestellt am ${fmtDate(d)} um ${fmtTime(d)} Uhr · gültig für ein Frühstück`;
+});
+
+/* ===== Heiliger Kalender ===== */
+(() => {
+  const now = new Date();
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  let fest = new Date(now.getFullYear(), 10, 16);
+  if (fest < today) fest = new Date(now.getFullYear() + 1, 10, 16);
+  const days = Math.round((fest - today) / 86400000);
+  $('#festCount').textContent = days === 0
+    ? '🎉 Heute ist Gründungsfest! Um 20:16 Uhr: eine Schweigeminute.'
+    : `⏳ Nächstes Gründungsfest in ${nf.format(days)} ${days === 1 ? 'Tag' : 'Tagen'} (${fmtDate(fest)}).`;
+})();
+
+/* ===== Beitritt & Mitgliedsausweis ===== */
+const ATTR = { weich: 'Fließenden Dotter', wachsweich: 'Goldenen Kern', hart: 'Unerschütterlichen Eiklar' };
+const RANG = { weich: 'Weichei · 1. Weihe', wachsweich: 'Wachsweich · 2. Weihe', hart: 'Hartgekocht · Ältestenrat' };
+const ZEIT = { weich: '4 Minuten', wachsweich: '6 Minuten', hart: '10 Minuten' };
+function renderCard(m) {
+  const has = !!(m && m.name && ATTR[m.grad]);
+  $('#joinForm').hidden = has;
+  $('#card').hidden = !has;
+  $('#cardActions').hidden = !has;
+  if (!has) return;
+  const d = new Date(m.ts);
+  $('#cNr').textContent = 'Nr. ' + m.nr;
+  $('#cName').textContent = `${m.anrede} ${m.name} vom ${ATTR[m.grad]}`;
+  $('#cRang').textContent = RANG[m.grad];
+  $('#cZeit').textContent = ZEIT[m.grad];
+  $('#cKonf').textContent = (KONF[m.konf] || KONF.stumpf).t;
+  $('#cDat').textContent = `${fmtDate(d)}, ${fmtTime(d)} Uhr`;
+}
+$('#joinForm').addEventListener('submit', e => {
+  e.preventDefault();
+  const name = $('#fName').value.trim().replace(/\s+/g, ' ').slice(0, 24);
+  if (!name) { $('#fName').focus(); toast('Ohne Namen keine Weihe.'); return; }
+  const m = {
+    name,
+    anrede: $('#fAnrede').value,
+    grad: $('#fGrad').value,
+    konf: $('#fKonf').value,
+    nr: 'EI-' + Math.floor(Math.random() * 65536).toString(16).toUpperCase().padStart(4, '0'),
+    ts: Date.now()
+  };
+  store.set({ mitglied: m, konf: m.konf });
+  showVote(m.konf);
+  renderCard(m);
+  unlockAudio(); bell(2);
+  eggRain();
+  toast('Willkommen in der Gemeinschaft! Tick. Tack. Ding.');
+});
+$('#cPrint').addEventListener('click', () => window.print());
+let leaveArmed = false;
+$('#cLeave').addEventListener('click', e => {
+  const btn = e.currentTarget;
+  if (!leaveArmed) {
+    leaveArmed = true;
+    btn.textContent = 'Wirklich? Nochmal klicken.';
+    setTimeout(() => { leaveArmed = false; btn.textContent = '🚪 Austreten'; }, 4000);
+    return;
+  }
+  leaveArmed = false;
+  btn.textContent = '🚪 Austreten';
+  store.remove('mitglied');
+  renderCard(null);
+  toast('Ausgetreten. Dein nächstes Frühstücksei wird „ungefähr“ sein.');
+});
+renderCard(store.get().mitglied);
+
+/* ===== Teilen ===== */
+const shareText = 'Werde Eieruhranbeter:in 🥚⏳ – Gemeinschaft der Heiligen Minute.';
+const pageUrl = () => location.href.split('#')[0];
+async function share() {
+  if (navigator.share) {
+    try { await navigator.share({ title: 'Die Eieruhranbeter', text: shareText, url: pageUrl() }); return; }
+    catch (e) { if (e && e.name === 'AbortError') return; }
+  }
+  try { await navigator.clipboard.writeText(shareText + ' ' + pageUrl()); toast('Link kopiert. Geh hin und missioniere.'); }
+  catch (e) { toast(pageUrl()); }
+}
+$$('[data-share]').forEach(b => b.addEventListener('click', share));
+$$('[data-wa]').forEach(a => { a.href = 'https://wa.me/?text=' + encodeURIComponent(shareText + ' ' + pageUrl()); });
+
+/* ===== Sanftes Einblenden ===== */
+const reveals = $$('.reveal');
+if ('IntersectionObserver' in window && !reduceMotion) {
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(en => { if (en.isIntersecting) { en.target.classList.add('vis'); io.unobserve(en.target); } });
+  }, { threshold: 0.12 });
+  reveals.forEach(el => io.observe(el));
+} else {
+  reveals.forEach(el => el.classList.add('vis'));
+}
+
+/* ===== Für Entwickler:innen ===== */
+console.log('%cTick. Tack. Ding. 🥚', 'font:bold 22px Georgia,serif;color:#f59e0b');
+console.log('Willkommen, Entwickler:in. Frage des Tages: Big- oder Little-Endian? Antwort im Abschnitt „Das Große Schisma“.');
+})();
+</script>
+</body>
+</html>
